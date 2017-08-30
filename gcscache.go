@@ -1,7 +1,6 @@
 package gcscache
 
 import (
-	"context"
 	"crypto/md5"
 	"encoding/hex"
 	"io"
@@ -13,6 +12,7 @@ import (
 	"strings"
 
 	"cloud.google.com/go/storage"
+	"golang.org/x/net/context"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 )
