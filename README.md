@@ -1,3 +1,3 @@
-# GCS Cache
+## GCS Cache Plugin for imageproxy
 
-Golang cache library that saves objects to Google Cloud Storage (GCS) for usage within [imageproxy](https://github.com/willnorris/imageproxy).
+This plugin adds GCS (Google Cloud Storage) as backend storage to [imageproxy](https://github.com/willnorris/imageproxy).
